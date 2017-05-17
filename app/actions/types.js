@@ -1,0 +1,6 @@
+export const FILTER = 'FILTER';
+export const LOG_IN = 'LOG_IN';
+export const FETCH_USER = 'FETCH_USER';
+export const LOAD_CATS_SUCCESS = 'LOAD_CATS_SUCCESS';
+export const LOAD_HOBBIES_SUCCESS = 'LOAD_HOBBIES_SUCCESS';
+export const UPDATE_CAT_SUCCESS = 'UPDATE_CAT_SUCCESS';

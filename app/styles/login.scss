@@ -1,0 +1,26 @@
+.login {
+	//border: 1px solid grey;
+    padding: 42px 16px 39px 84px;
+    //width: 500px;
+    //height: 186px;
+    text-align: center;
+    input {
+	    border: 5px solid white; 
+	    -webkit-box-shadow: 
+	      inset 0 0 8px  rgba(0,0,0,0.1),
+	            0 0 16px rgba(0,0,0,0.1); 
+	    -moz-box-shadow: 
+	      inset 0 0 8px  rgba(0,0,0,0.1),
+	            0 0 16px rgba(0,0,0,0.1); 
+	    box-shadow: 
+	      inset 0 0 8px  rgba(0,0,0,0.1),
+	            0 0 16px rgba(0,0,0,0.1); 
+	    padding: 15px;
+	    background: rgba(255,255,255,0.5);
+	    margin: 0 0 10px 0;
+	}
+  	button {
+  		width: 150px;
+    	height: 57px;
+    }
+}

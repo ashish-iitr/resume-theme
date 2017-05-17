@@ -1,0 +1,132 @@
+
+.mainContent {
+  margin-top: 107px;
+  .left-part {
+    //max-width: 200px;
+    float: left;
+    padding: 7px 7px;
+  }
+  .right-part {
+    //max-width: 450px;
+    float: right;
+    padding: 7px 7px;
+    width: 60%;
+  }
+  @media screen and (max-width: 768px) {
+    .right-part {
+      width: 100%;
+    }
+  }
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .title {
+    padding: 10px 0px 25px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-weight: 500;
+    .subtitle {
+      font-size: 19px;
+      color: darkgrey;
+      font-weight: normal;
+    }
+  }
+  .technologies {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 0px 0px 5px 0px;
+    span {
+      font-size: 12px;
+      color: darkgray
+    }
+    span:not(:last-child):after {
+      content:', ';
+    }
+  }
+  .education {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 0px 0px 5px 0px;
+    span {
+      font-size: 12px;
+      color: darkgray;
+    }
+    span:not(:last-child):after {
+      content:', ';
+    }
+  }
+  .experience {
+    .company {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 34px;
+    }
+    .year {
+      font-size: 12px;
+      line-height: 6px;
+      padding-bottom: 13px;
+    }
+    .detail {
+      font-size: 12px;
+    }
+  }
+  .project {
+    .title {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 40px;
+      padding: 0;
+    }
+    .description {
+      font-size: 12px;
+    }
+  }
+  .first-page {
+
+  }
+  .second-page {
+    clear: both;
+    padding-top: 30px;
+  }
+  .project-detail {
+    .row {
+      padding: 30px 0 20px 0;
+      .left {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      .right {
+        padding-left: 82px;
+      }
+      @media screen and (max-width: 768px) { 
+        .right {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+  .save-icon {
+    //margin: -42px 263px 0px 0px;
+    //float: right;
+    cursor: pointer;
+  }
+  .loginAgain {
+    text-align: center;
+  }
+  .error{
+    color: red;
+  }
+  .summary {
+    word-break: break-all;
+  }
+  .back-btn {
+    cursor: pointer;
+    .material-icons {
+      font-size: 18px;
+      border: 1px solid #d8d8d8;
+      padding: 3px 10px 3px 10px;
+      border-radius: 13px;
+      color: grey;
+    }
+  }
+}
